@@ -17,11 +17,12 @@ public class App
 
     private static final Logger LOG = LoggerFactory.getLogger(App.class);
 
-//    @Override
     public static void main( String[] args )
     {
-        LOG.debug("this is debug message ... ");
         System.out.println( "Hello World!" );
+        LOG.debug("this is debug message ... ");
+        LOG.info("this is debug message ... ");
+        System.out.println( "Hello World Again!" );
 
     }
 }
